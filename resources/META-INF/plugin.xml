@@ -1,0 +1,20 @@
+<idea-plugin>
+    <id>com.intellij.keymaps.ReSharperKeymap</id>
+    <name>ReSharper Keymap</name>
+    <version>1.0.0</version>
+    <vendor email="kb@jetbrains.com" url="http://www.jetbrains.com">JetBrains</vendor>
+
+    <description><![CDATA[
+    JetBrains ReSharper keymap ported to IntelliJ-based IDEs
+    ]]></description>
+
+
+    <idea-version since-build="181"/>
+
+    <depends>com.intellij.modules.lang</depends>
+
+    <extensions defaultExtensionNs="com.intellij">
+        <bundledKeymapProvider implementation="com.intellij.keymaps.ReSharperKeymap" />
+    </extensions>
+    <actions/>
+</idea-plugin>
